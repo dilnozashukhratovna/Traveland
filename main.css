@@ -147,7 +147,7 @@
 /* ===================== BOX2 =============================*/
 .box2 {
     width: 100%;
-    height: 100vh;
+    height: 95vh;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
@@ -160,22 +160,24 @@
 
 .box2 .infomration h2 {
     color: #000;
-    font-family: "Gelasio", serif;
-    font-size: 40px;
+    font-family: Gelasio;
+    font-size: 43px;
     font-style: normal;
-    font-weight: 300;
-    line-height: 140%;
+    font-weight: 500;
+    line-height: 140%; /* 60.2px */
+    margin-bottom: 20px;
 }
 
 .box2 .infomration p {
     width: 735px;
-    color: #686868;
+    color: #000;
     text-align: center;
-    font-family: "Roboto", sans-serif;
+    font-family: Roboto;
     font-size: 18px;
     font-style: normal;
     font-weight: 400;
     line-height: 160%;
+    opacity: 0.6;
 }
 
 .box2 .boxes {
@@ -185,12 +187,18 @@
     justify-content: center;
     flex-wrap: wrap;
     align-content: center;
-    gap: 25px;
+    gap: 35px;
 }
 
 .box2 .boxes .box {
     width: 25%;
     text-align: center;
+    transition: all 0.3s linear;
+}
+
+.box2 .boxes .box:hover {
+    transform: scale(1.1);
+    cursor: pointer;
 }
 
 .box2 .boxes .box div {
@@ -241,7 +249,7 @@
 
 .box3 {
     width: 100%;
-    height: 110vh;
+    height: 90vh;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
@@ -254,11 +262,12 @@
 
 .box3 .infomration h2 {
     color: #000;
-    font-family: "Gelasio", serif;
-    font-size: 40px;
+    font-family: Gelasio;
+    font-size: 43px;
     font-style: normal;
-    font-weight: 300;
-    line-height: 140%;
+    font-weight: 500;
+    line-height: 140%; /* 60.2px */
+    margin-bottom: 20px;
 }
 
 .box3 .infomration p {
@@ -274,6 +283,12 @@
 
 .box3 .boxes .box {
     width: 225px;
+    transition: all 0.3s linear;
+}
+
+.box3 .boxes .box:hover {
+    transform: scale(1.1);
+    cursor: pointer;
 }
 
 .box3 .boxes {
@@ -353,7 +368,7 @@
 /* ===================== BOX4 =============================*/
 .box4 {
     width: 100%;
-    height: 100vh;
+    height: 120vh;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
@@ -366,11 +381,13 @@
 
 .box4 .infomration h2 {
     color: #000;
-    font-family: "Gelasio", serif;
-    font-size: 40px;
+    text-align: center;
+    font-family: Gelasio;
+    font-size: 43px;
     font-style: normal;
-    font-weight: 300;
+    font-weight: 500;
     line-height: 140%;
+    margin-bottom: 20px;
 }
 
 .box4 .infomration p {
@@ -382,6 +399,7 @@
     font-style: normal;
     font-weight: 400;
     line-height: 160%;
+    margin-bottom: 56px;
 }
 
 .box4 .boxes {
@@ -410,39 +428,38 @@
 
 .box4_box1 h5 {
     color: #000;
-    font-family: "Gelasio", serif;
-    font-size: 20px;
+    font-family: Gelasio;
+    font-size: 25px;
     font-style: normal;
     font-weight: 500;
-    line-height: 160%;
+    line-height: 160%; /* 32px */
     padding: 15px 0px;
     padding-top: 20px;
 }
 
 .box4_box1 p {
-    width: 395px;
-    height: 131px;
+    width: 470px;
+    height: 151px;
     flex-shrink: 0;
-    color: #686868;
-    font-family: "Roboto", sans-serif;
-    font-size: 16px;
+    color: #000;
+    font-family: Roboto;
+    font-size: 18px;
     font-style: normal;
     font-weight: 400;
-    line-height: 160%; /* 28.8px */
-    padding: 20px 0;
-    padding-top: 10px;
+    line-height: 160%;
+    opacity: 0.6;
+    /* padding: 20px 0; */
+    /* padding-top: 10px; */
 }
 
 .box4_box1 h3 {
-    width: 192px;
-    height: 30px;
-    flex-shrink: 0;
     color: #000;
-    font-family: "Roboto", sans-serif;
+    font-family: Roboto;
     font-size: 20px;
     font-style: normal;
     font-weight: 500;
     line-height: 150%;
+    margin-top: 15px;
 }
 
 .box4_box2 {
@@ -493,6 +510,7 @@ footer {
     height: 348px;
     background: rgba(38, 148, 153, 0.04);
     position: relative;
+    margin-top: 100px;
 }
 
 .foots {
