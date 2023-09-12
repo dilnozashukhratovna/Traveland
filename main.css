@@ -520,7 +520,7 @@ footer {
     left: 220px;
     display: flex;
     flex-wrap: wrap;
-    border: 1px solid black;
+    /* border: 1px solid black; */
 }
 
 /* ====FOOT1======= */
@@ -611,7 +611,7 @@ footer {
     margin-top: 60px;
     width: 340px;
     margin-left: 120px;
-    border: 1px solid black;
+    /* border: 1px solid black; */
 }
 
 .foot4 h1 {
