@@ -514,7 +514,7 @@ footer {
 }
 
 .foots {
-    width: calc(100% - 488px);
+    width: calc(100% - 470px);
     height: 348px;
     position: absolute;
     left: 220px;
