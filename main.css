@@ -517,7 +517,7 @@ footer {
     width: calc(100% - 488px);
     height: 348px;
     position: absolute;
-    left: 231px;
+    left: 220px;
     display: flex;
     flex-wrap: wrap;
 }
