@@ -566,7 +566,7 @@ footer {
 .foot2 {
     margin-top: 50px;
     width: 71px;
-    margin-left: 169px;
+    margin-left: 150px;
 }
 
 .foot2 p a {
@@ -588,7 +588,7 @@ footer {
 .foot3 {
     margin-top: 50px;
     width: 158px;
-    margin-left: 127px;
+    margin-left: 120px;
 }
 
 .foot3 p a {
@@ -611,6 +611,7 @@ footer {
     margin-top: 60px;
     width: 340px;
     margin-left: 120px;
+    border: 1px solid black;
 }
 
 .foot4 h1 {
