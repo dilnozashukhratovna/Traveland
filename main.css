@@ -410,12 +410,12 @@
     justify-content: center;
     flex-wrap: wrap;
     align-content: center;
-    gap: 20px;
+    gap: 15px;
 }
 
 .box4 .box4_box1 img {
-    width: 554px;
-    height: 397px;
+    width: 544px;
+    height: 387px;
     flex-shrink: 0;
     padding-bottom: 5px;
 }
